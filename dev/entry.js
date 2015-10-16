@@ -1,3 +1,2 @@
-const a = 'a';
-const b = 'b';
-console.log('hello');
+import styles from './css/main.scss';
+console.log('hi');
