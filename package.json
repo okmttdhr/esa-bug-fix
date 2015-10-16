@@ -1,0 +1,19 @@
+{
+  "name": "esa-bug-fix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okmttdhr/esa-bug-fix.git"
+  },
+  "author": "okp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okmttdhr/esa-bug-fix/issues"
+  },
+  "homepage": "https://github.com/okmttdhr/esa-bug-fix#readme"
+}
