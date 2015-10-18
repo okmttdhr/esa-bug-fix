@@ -1,2 +1,10 @@
 import styles from './style.scss';
-console.log('hi');
+import $ from 'jquery'
+
+$(document).ready(function(e) {
+  console.log('load');
+  const hash = window.location.hash;
+  setTimeout(function() {
+    window.scrollTo(0, $(hash).offset().top);
+  }, 100);
+});
