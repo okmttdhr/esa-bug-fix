@@ -1,6 +1,0 @@
-@charset "UTF-8";
-
-/* 横スクロールしてしまう */
-.categories-index .container {
-  width: 90%;
-}
