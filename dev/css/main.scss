@@ -1,6 +1,19 @@
-/* 横スクロールしてしまう */
-.categories-index {
-  .container {
-    width: 90%;
-  }  
+// 横スクロールしてしまう
+.categories-index .container {
+  width: 90%;
+}
+
+// ミドルサイズにした時、テキストがはみ出る
+.categories-index .main-column-category .main-column {
+  width: 100%;
+}
+
+// スクロール時のストレスとなるためフッターを削除
+.footer {
+  display: none;
+}
+
+// ハンバーガーをhoverしたときにフィードバックがない
+.navbar-sub .nav-user-settings:hover a .fa-bars {
+  color: rgba(0,0,0,0.4);
 }
