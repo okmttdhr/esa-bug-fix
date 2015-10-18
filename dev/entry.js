@@ -5,6 +5,8 @@ $(document).ready(function(e) {
   console.log('load');
   const hash = window.location.hash;
   setTimeout(function() {
-    window.scrollTo(0, $(hash).offset().top);
+    if ($(hash).length) {
+      window.scrollTo(0, $(hash).offset().top);      
+    }
   }, 100);
 });
