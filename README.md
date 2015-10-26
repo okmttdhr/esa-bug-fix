@@ -7,7 +7,7 @@ esa.ioで、個人的に気になる箇所を修正していきます。
 ## インストール
 
 ```bash
-git clone https://github.com/okmttdhr/nikkei-hacker.git && cd nikkei-hacker && npm run build
+git clone https://github.com/okmttdhr/esa-bug-fix.git && cd esa-bug-fix && npm run build
 ```
 
 実行が終わったら、以下の、`ステップ 2: アプリをテストする`に従い、`パッケージ化されていない拡張機能`を読み込んでください。
