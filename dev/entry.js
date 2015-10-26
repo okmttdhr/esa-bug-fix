@@ -1,12 +1,15 @@
-import styles from './style.scss';
+import './style.scss';
 import $ from 'jquery';
 
-$(document).ready(function() {
-  console.log('load');
+const body = $('body');
+
+function hashScroll() {
   const hash = window.location.hash;
   setTimeout(function() {
     if ($(hash).length) {
       window.scrollTo(0, $(hash).offset().top);
     }
   }, 100);
+body.ready(() => {
+  hashScroll();
 });
