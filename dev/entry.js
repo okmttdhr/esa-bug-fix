@@ -10,6 +10,8 @@ function hashScroll() {
       window.scrollTo(0, $(hash).offset().top);
     }
   }, 100);
+}
+
 body.ready(() => {
   hashScroll();
 });
